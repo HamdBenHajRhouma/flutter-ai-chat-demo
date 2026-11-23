@@ -67,9 +67,6 @@ flutter run \
   --dart-define=OPENAI_MODEL=gpt-4o-mini
 ```
 
-Or copy `.env.example` to `.env` and fill in your own key. Never commit a
-real key — `.env` is in `.gitignore`.
-
 Any OpenAI-compatible endpoint works: change `OPENAI_BASE_URL` to your
 provider's URL. The request body is the standard `chat/completions` format
 (`model`, `messages: [{role, content}]`).

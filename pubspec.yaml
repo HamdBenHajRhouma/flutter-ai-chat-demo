@@ -2,6 +2,9 @@ name: flutter_ai_chat_demo
 description: "A small Flutter demo: AI chatbot using an LLM API (OpenAI-compatible REST API), with Riverpod and Clean Architecture. Mock mode when no API key is set."
 publish_to: 'none'
 version: 0.1.0+1
+homepage: https://github.com/HamdBenHajRhouma/flutter-ai-chat-demo
+repository: https://github.com/HamdBenHajRhouma/flutter-ai-chat-demo
+issue_tracker: https://github.com/HamdBenHajRhouma/flutter-ai-chat-demo/issues
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
