@@ -39,7 +39,16 @@ lib/
 test/
   unit/send_message_test.dart
   widget/chat_page_test.dart
+android/                             # Android runner and Gradle configuration
+ios/                                 # iOS runner and Xcode configuration
+web/                                 # Web app entry point and PWA manifest
+linux/                               # Linux desktop runner
+macos/                               # macOS desktop runner
+windows/                             # Windows desktop runner
 ```
+
+The project includes standard Flutter runner files for Android, iOS, web,
+Linux, macOS, and Windows.
 
 ## Setup
 
