@@ -3,3 +3,7 @@ include: package:flutter_lints/flutter.yaml
 linter:
   rules:
     avoid_print: true
+
+analyzer:
+  errors:
+    deprecated_member_use: ignore
